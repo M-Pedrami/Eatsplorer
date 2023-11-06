@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import {Person, DiamondFill, Alarm, Puzzle} from 'react-bootstrap-icons';
 import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
@@ -11,7 +11,7 @@ export default function RecipePage() {
     getRecipe(ID)
     .then((res)=>setRecipe(res))
     .catch((err)=> console.log("From RecipePage:::", err))
-  }, [ID])
+  }, [])
 
   return (
     <div>

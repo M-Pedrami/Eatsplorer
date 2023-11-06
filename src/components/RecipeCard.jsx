@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+/* Import Alarm Icon Component from react-bootstrap-icons */
 import { Alarm } from "react-bootstrap-icons";
-import { Link, NavLink } from "react-router-dom";
+
+/* Import Link Component from react-router-dom */
+import { Link } from "react-router-dom";
 
 export default function RecipeCard({ recipe }) {
-  
   
   return (
     <>
@@ -18,10 +19,16 @@ export default function RecipeCard({ recipe }) {
             <div className="card-title">
               <h4>{recipe.fields.name}</h4>
             </div>
+            
             <div className="card-subtitle">
               <Alarm />
               {recipe.fields.info.time}
+
+              {/* Using the Link component to go to the Recipe Page */}
+
               <Link to={`Home/${recipe.sys.id}`}>Take Me There</Link>
+            
+
             </div>
           </div>
         </div>
