@@ -11,7 +11,7 @@ export default function RecipePage() {
     getRecipe(ID)
     .then((res)=>setRecipe(res))
     .catch((err)=> console.log("From RecipePage:::", err))
-  }, [])
+  }, [ID])
 
   return (
     <div>

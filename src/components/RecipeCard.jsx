@@ -26,7 +26,7 @@ export default function RecipeCard({ recipe }) {
 
               {/* Using the Link component to go to the Recipe Page */}
 
-              <Link to={`Home/${recipe.sys.id}`}>Take Me There</Link>
+              <Link to={`/Home/${recipe.sys.id}`}>Take Me There</Link>
             
 
             </div>
