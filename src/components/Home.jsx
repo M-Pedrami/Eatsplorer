@@ -1,14 +1,13 @@
 import React from 'react'
-import useContentful from "../hooks/useContentful";
+import getAllRecipes from "../hooks/getAllRecipes";
 import { useState, useEffect } from 'react';
 import RecipeCard from './RecipeCard';
 import { Container } from 'react-bootstrap';
 
 export default function Home() {
-  const { getRecipe } = useContentful();
   const [recipes, setRecipes] = useState([]);
   useEffect(() => {
-    getRecipe()
+    getAllRecipes()
       .then((data) => setRecipes(data))
       .catch((err) => console.log("Maziar !!!Error from App.jsx", err));
   }, []);
