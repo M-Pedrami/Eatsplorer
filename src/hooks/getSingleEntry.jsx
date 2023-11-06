@@ -1,24 +1,18 @@
 import { createClient } from "contentful";
 
-const getSingleEntry = ()=> {
+const getRecipe = async (id) => {
   const client = createClient({
-    // This is the space ID. A space is like a project folder in Contentful terms
     space: '4ulkrk5gvrwd',
-    // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
     accessToken: 'Ir8G84ywZJ01THkmfNcvaBT9lXkfKXnSk4ae4qeynVE',
   });
-  // Writing the get function to fetch the data from the api
-  const getRecipe = async (id) =>{
-    try{
-      const entry = await client.getEntry(id
-      )
-      return entry.items;
-    
 
-    }catch (err) {
-      console.log("Maziar !!! Error from getSingleEntry", err)
-    }
+  try {
+    const response = await client.getEntry(id);
+    return response; // Assuming you want to return the fields of the entry
+  } catch (err) {
+    console.log("Maziar !!! Error from getRecipe", err);
+    throw err; // You might want to throw the error to handle it in your component
   }
-  return {getRecipe};
-}
-export default getSingleEntry;
+};
+
+export default getRecipe;

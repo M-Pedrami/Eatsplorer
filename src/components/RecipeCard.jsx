@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Alarm } from "react-bootstrap-icons";
+import { Link, NavLink } from "react-router-dom";
 
 export default function RecipeCard({ recipe }) {
+  
+  
   return (
     <>
       <div className="col-lg-3 col-md-4  text-center">
@@ -18,7 +21,7 @@ export default function RecipeCard({ recipe }) {
             <div className="card-subtitle">
               <Alarm />
               {recipe.fields.info.time}
-              <button>Take me there</button>
+              <Link to={`Home/${recipe.sys.id}`}>Take Me There</Link>
             </div>
           </div>
         </div>
