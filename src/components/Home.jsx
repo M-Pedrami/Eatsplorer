@@ -9,6 +9,7 @@ import RecipeCard from './RecipeCard';
 
 /* Import Bootstrap Components */
 import { Container } from 'react-bootstrap';
+import SearchRecipe from "./SearchRecipe";
 
 export default function Home() {
 
@@ -22,11 +23,11 @@ export default function Home() {
       .catch((err) => console.log("Maziar !!!Error from App.jsx", err));
   }, []);
 
-  /* console.log(recipes); */
 
   
   return (
     <div>
+      <SearchRecipe recipe={recipes}/>
       <Container>
       <div className="container p-5">
         <div className="row g-4">
