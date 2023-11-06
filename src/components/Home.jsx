@@ -28,11 +28,7 @@ export default function Home() {
   return (
     <div>
       <Container>
-      <div className="container d-lg-flex justify-content-lg-between align-items-center text-center mb-lg-5">
-        <h2>Popular Recipes</h2>
-        <hr />
-      </div>
-      <div className="container">
+      <div className="container p-5">
         <div className="row g-4">
           {recipes.map((recipe) => (
             <RecipeCard key={recipe.fields.name} recipe={recipe} />

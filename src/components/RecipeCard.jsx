@@ -4,11 +4,14 @@ import { Alarm } from "react-bootstrap-icons";
 /* Import Link Component from react-router-dom */
 import { Link } from "react-router-dom";
 
+/* Import Custom CSS File from Styles folder */
+import '../styles/RecipeCard.css'
+
 export default function RecipeCard({ recipe }) {
-  
+  console.log(recipe)
   return (
     <>
-      <div className="col-lg-3 col-md-4  text-center">
+      <div className="col-lg-4 col-md-4  text-center">
         <div className="card overflow-hidden bg-dark-subtle">
           <img
             src={recipe.fields.image.fields.file.url}

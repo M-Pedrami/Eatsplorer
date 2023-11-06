@@ -16,7 +16,7 @@ export default function RecipePage() {
   return (
     <div>
       <Container key={recipe?.fields.name}>
-            <section className="p-5 bg-body-tertiary">
+            <section className="p-5 bg-body-tertiary mt-5">
               <div className="container d-flex justify-content-between">
                 <div>
                   <img
