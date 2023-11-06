@@ -12,7 +12,7 @@ export default function RecipeCard({ recipe }) {
   return (
     <>
       <div className="col-lg-4 col-md-4  text-center">
-        <div className="card overflow-hidden bg-dark-subtle">
+        <div id="card" className="card overflow-hidden bg-dark-subtle">
           <img
             src={recipe.fields.image.fields.file.url}
             alt={recipe.fields.name}
@@ -26,13 +26,11 @@ export default function RecipeCard({ recipe }) {
             <div className="card-subtitle">
               <Alarm />
               {recipe.fields.info.time}
-
-              {/* Using the Link component to go to the Recipe Page */}
-
-              <Link to={`/Home/${recipe.sys.id}`}>Take Me There</Link>
-            
-
             </div>
+            <div className="linkContainer">
+              {/* Using the Link component to go to the Recipe Page */}
+              <Link className="link" to={`/Home/${recipe.sys.id}`}>Take Me There</Link>
+            </div> 
           </div>
         </div>
       </div>

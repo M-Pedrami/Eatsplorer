@@ -1,7 +1,22 @@
 img{
   height: 300px;
 }
-.card {
-  height: 420px;
-
+#card{
+  height: 455px;
+}
+.card-subtitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.linkContainer{
+  margin-top: 1rem;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px;
+  background-color:whitesmoke;
+  border-radius: 5px;
 }
