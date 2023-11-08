@@ -1,0 +1,1448 @@
+{
+    "results": [
+        {
+            "vegetarian": true,
+            "vegan": false,
+            "glutenFree": true,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 9,
+            "gaps": "no",
+            "preparationMinutes": -1,
+            "cookingMinutes": -1,
+            "aggregateLikes": 9,
+            "healthScore": 17,
+            "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+            "license": "CC BY 3.0",
+            "sourceName": "Foodista",
+            "pricePerServing": 195.11,
+            "id": 656329,
+            "title": "Pizza bites with pumpkin",
+            "readyInMinutes": 45,
+            "servings": 4,
+            "sourceUrl": "https://www.foodista.com/recipe/SHKG55X4/pizza-bites-with-pumpkin",
+            "image": "https://spoonacular.com/recipeImages/656329-312x231.jpg",
+            "imageType": "jpg",
+            "summary": "Pizza bites with pumpkin might be just the hor d'oeuvre you are searching for. Watching your figure? This gluten free, lacto ovo vegetarian, and primal recipe has <b>309 calories</b>, <b>16g of protein</b>, and <b>22g of fat</b> per serving. This recipe serves 4 and costs $1.95 per serving. 9 people were glad they tried this recipe. Head to the store and pick up eggs, olive oil, mozzarella, and a few other things to make it today. From preparation to the plate, this recipe takes about <b>45 minutes</b>. It is an <b>affordable</b> recipe for fans of Mediterranean food. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 67%</b>, which is solid. <a href=\"https://spoonacular.com/recipes/pizza-bites-89274\">Pizza Bites</a>, <a href=\"https://spoonacular.com/recipes/pizza-bites-568070\">Pizza Bites</a>, and <a href=\"https://spoonacular.com/recipes/pizza-bites-1765979\">Pizza Bites</a> are very similar to this recipe.",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "European"
+            ],
+            "dishTypes": [
+                "fingerfood",
+                "antipasti",
+                "starter",
+                "snack",
+                "appetizer",
+                "antipasto",
+                "hor d'oeuvre"
+            ],
+            "diets": [
+                "gluten free",
+                "lacto ovo vegetarian",
+                "primal"
+            ],
+            "occasions": [],
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Chop pumpkin using a food processor until rice-like.",
+                            "ingredients": [
+                                {
+                                    "id": 11422,
+                                    "name": "pumpkin",
+                                    "localizedName": "pumpkin",
+                                    "image": "pumpkin.png"
+                                },
+                                {
+                                    "id": 20444,
+                                    "name": "rice",
+                                    "localizedName": "rice",
+                                    "image": "uncooked-white-rice.png"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404771,
+                                    "name": "food processor",
+                                    "localizedName": "food processor",
+                                    "image": "food-processor.png"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "step": "Saut pumpkin in hot olive oil for 3 minutes. Set aside and let cool.",
+                            "ingredients": [
+                                {
+                                    "id": 4053,
+                                    "name": "olive oil",
+                                    "localizedName": "olive oil",
+                                    "image": "olive-oil.jpg"
+                                },
+                                {
+                                    "id": 11422,
+                                    "name": "pumpkin",
+                                    "localizedName": "pumpkin",
+                                    "image": "pumpkin.png"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 3,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 3,
+                            "step": "Mix feta and mozzarella; add, one at a time, eggs.",
+                            "ingredients": [
+                                {
+                                    "id": 1026,
+                                    "name": "mozzarella",
+                                    "localizedName": "mozzarella",
+                                    "image": "mozzarella.png"
+                                },
+                                {
+                                    "id": 1123,
+                                    "name": "egg",
+                                    "localizedName": "egg",
+                                    "image": "egg.png"
+                                },
+                                {
+                                    "id": 1019,
+                                    "name": "feta cheese",
+                                    "localizedName": "feta cheese",
+                                    "image": "feta.png"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 4,
+                            "step": "Mix and combine.",
+                            "ingredients": [],
+                            "equipment": []
+                        },
+                        {
+                            "number": 5,
+                            "step": "Add pumpkin and spices, mix well until well blended.",
+                            "ingredients": [
+                                {
+                                    "id": 11422,
+                                    "name": "pumpkin",
+                                    "localizedName": "pumpkin",
+                                    "image": "pumpkin.png"
+                                },
+                                {
+                                    "id": 2035,
+                                    "name": "spices",
+                                    "localizedName": "spices",
+                                    "image": "spices.png"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 6,
+                            "step": "Evenly spoon the mixture into the greased muffin tin molds. Press pizza dough down evenly and firmly (the pressing down firmly is very important to make sure they stick together).",
+                            "ingredients": [
+                                {
+                                    "id": 93610,
+                                    "name": "pizza dough",
+                                    "localizedName": "pizza dough",
+                                    "image": "pizza-dough.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404671,
+                                    "name": "muffin tray",
+                                    "localizedName": "muffin tray",
+                                    "image": "muffin-tray.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "step": "Place in the oven and bake for 30 minutes at 200C.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg",
+                                    "temperature": {
+                                        "number": 200.0,
+                                        "unit": "Celsius"
+                                    }
+                                }
+                            ],
+                            "length": {
+                                "number": 30,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 8,
+                            "step": "Remove the pizza bites from the oven and let set until cool (this is also very important  let the pizza bites set in their pan for 5  10 minutes before removing  if you take them out while they are too hot they will break).",
+                            "ingredients": [
+                                {
+                                    "id": 0,
+                                    "name": "pizza rolls",
+                                    "localizedName": "pizza rolls",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                },
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "localizedName": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ],
+                            "length": {
+                                "number": 10,
+                                "unit": "minutes"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "spoonacularSourceUrl": "https://spoonacular.com/pizza-bites-with-pumpkin-656329",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "name": "Alcohol",
+                        "amount": 0.0,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Caffeine",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Fluoride",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Vitamin C",
+                        "amount": 19.5015,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Selenium",
+                        "amount": 17.2563,
+                        "unit": "µg"
+                    }
+                ]
+            }
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 20,
+            "gaps": "no",
+            "preparationMinutes": -1,
+            "cookingMinutes": -1,
+            "aggregateLikes": 0,
+            "healthScore": 7,
+            "creditsText": "pinkwhen.com",
+            "sourceName": "pinkwhen.com",
+            "pricePerServing": 280.78,
+            "id": 680975,
+            "title": "BLT Pizza",
+            "readyInMinutes": 45,
+            "servings": 3,
+            "sourceUrl": "http://www.pinkwhen.com/blt-pizza/",
+            "image": "https://spoonacular.com/recipeImages/680975-312x231.jpg",
+            "imageType": "jpg",
+            "summary": "Forget going out to eat or ordering takeout every time you crave Mediterranean food. Try making BLT Pizzan at home. This recipe makes 3 servings with <b>628 calories</b>, <b>26g of protein</b>, and <b>26g of fat</b> each. For <b>$2.81 per serving</b>, this recipe <b>covers 14%</b> of your daily requirements of vitamins and minerals. 1 person were impressed by this recipe. It works well as a budget friendly main course. This recipe from Pink When requires colby jack cheese, turkey bacon, garlic powder, and lettuce. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 38%</b>, which is not so super. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/blt-pizza-471280\">BLT Pizza</a>, <a href=\"https://spoonacular.com/recipes/blt-pizza-99404\">BLT Pizza</a>, and <a href=\"https://spoonacular.com/recipes/blt-pizza-409946\">BLT Pizza</a>.",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "European"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Preheat your oven according to your crust's directions.In a small bowl, mix together softened cream cheese and the ranch dressing until equally combined.Using a small spatula, spread cream cheese mixture over the crust in an even thin layer.Top with cooked bacon, diced tomatoes, and cheese.",
+                            "ingredients": [
+                                {
+                                    "id": 4639,
+                                    "name": "ranch dressing",
+                                    "localizedName": "ranch dressing",
+                                    "image": "ranch-dressing.jpg"
+                                },
+                                {
+                                    "id": 10862,
+                                    "name": "cooked bacon",
+                                    "localizedName": "cooked bacon",
+                                    "image": "cooked-bacon.jpg"
+                                },
+                                {
+                                    "id": 1017,
+                                    "name": "cream cheese",
+                                    "localizedName": "cream cheese",
+                                    "image": "cream-cheese.jpg"
+                                },
+                                {
+                                    "id": 11529,
+                                    "name": "tomato",
+                                    "localizedName": "tomato",
+                                    "image": "tomato.png"
+                                },
+                                {
+                                    "id": 1041009,
+                                    "name": "cheese",
+                                    "localizedName": "cheese",
+                                    "image": "cheddar-cheese.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "spread",
+                                    "localizedName": "spread",
+                                    "image": ""
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "crust",
+                                    "localizedName": "crust",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404642,
+                                    "name": "spatula",
+                                    "localizedName": "spatula",
+                                    "image": "spatula-or-turner.jpg"
+                                },
+                                {
+                                    "id": 404783,
+                                    "name": "bowl",
+                                    "localizedName": "bowl",
+                                    "image": "bowl.jpg"
+                                },
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "step": "Sprinkle with garlic powder.",
+                            "ingredients": [
+                                {
+                                    "id": 1022020,
+                                    "name": "garlic powder",
+                                    "localizedName": "garlic powder",
+                                    "image": "garlic-powder.png"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 3,
+                            "step": "Place in oven and cook according to package instructions or until crust is crisp and cheese is golden brown, about 8-10 minutes.",
+                            "ingredients": [
+                                {
+                                    "id": 1041009,
+                                    "name": "cheese",
+                                    "localizedName": "cheese",
+                                    "image": "cheddar-cheese.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "crust",
+                                    "localizedName": "crust",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 10,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 4,
+                            "step": "Remove from oven and let cool for 5 minutes.Once cool, sprinkle the lettuce over the top and then cut into slices. Enjoy!",
+                            "ingredients": [
+                                {
+                                    "id": 11252,
+                                    "name": "lettuce",
+                                    "localizedName": "lettuce",
+                                    "image": "iceberg-lettuce.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 5,
+                                "unit": "minutes"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "spoonacularSourceUrl": "https://spoonacular.com/blt-pizza-680975",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "name": "Alcohol",
+                        "amount": 0.0,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Caffeine",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Fluoride",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Vitamin C",
+                        "amount": 9.69133,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Selenium",
+                        "amount": 8.41489,
+                        "unit": "µg"
+                    }
+                ]
+            }
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 28,
+            "gaps": "no",
+            "preparationMinutes": -1,
+            "cookingMinutes": -1,
+            "aggregateLikes": 1,
+            "healthScore": 50,
+            "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+            "license": "CC BY 3.0",
+            "sourceName": "Foodista",
+            "pricePerServing": 317.99,
+            "id": 663136,
+            "title": "Thai Pizza",
+            "readyInMinutes": 45,
+            "servings": 3,
+            "sourceUrl": "http://www.foodista.com/recipe/MJBRQQXL/thai-pizza",
+            "summary": "You can never have too many Mediterranean recipes, so give Thai Pizzan a try. This recipe serves 3. One portion of this dish contains around <b>45g of protein</b>, <b>35g of fat</b>, and a total of <b>910 calories</b>. For <b>$3.18 per serving</b>, this recipe <b>covers 47%</b> of your daily requirements of vitamins and minerals. It works best as a main course, and is done in around <b>45 minutes</b>. Head to the store and pick up honey, sesame seeds, chunky peanut butter, and a few other things to make it today. Not a lot of people made this recipe, and 1 would say it hit the spot. It is brought to you by Foodista. With a spoonacular <b>score of 82%</b>, this dish is amazing. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/thai-pizza-549544\">Thai Pizza</a>, <a href=\"https://spoonacular.com/recipes/thai-pizza-895078\">Thai Pizza</a>, and <a href=\"https://spoonacular.com/recipes/thai-pizza-755831\">Thai Pizza</a>.",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "European"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Bring out your Crockpot/Slow Cooker and line it with your handy, dandy plastic liner.Throw the frozen chicken breast, chicken broth, and hoisin sauce into the Crockpot.Set to high and cook for four hours or until the chicken comes apart easily with a fork.Shred chicken, then drain excess liquid. (Can be made up to one day ahead).",
+                            "ingredients": [
+                                {
+                                    "id": 5062,
+                                    "name": "chicken breast",
+                                    "localizedName": "chicken breast",
+                                    "image": "chicken-breasts.png"
+                                },
+                                {
+                                    "id": 6194,
+                                    "name": "chicken broth",
+                                    "localizedName": "chicken broth",
+                                    "image": "chicken-broth.png"
+                                },
+                                {
+                                    "id": 6175,
+                                    "name": "hoisin sauce",
+                                    "localizedName": "hoisin sauce",
+                                    "image": "dark-sauce.jpg"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "chicken",
+                                    "localizedName": "chicken",
+                                    "image": "whole-chicken.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404718,
+                                    "name": "slow cooker",
+                                    "localizedName": "slow cooker",
+                                    "image": "slow-cooker.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 240,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 2,
+                            "step": "Combine yeast and warm water in a medium-sized mixing bowl.",
+                            "ingredients": [
+                                {
+                                    "id": 14412,
+                                    "name": "water",
+                                    "localizedName": "water",
+                                    "image": "water.png"
+                                },
+                                {
+                                    "id": 18375,
+                                    "name": "yeast",
+                                    "localizedName": "yeast",
+                                    "image": "yeast-granules.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 405907,
+                                    "name": "mixing bowl",
+                                    "localizedName": "mixing bowl",
+                                    "image": "mixing-bowl.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "step": "Add 1 teaspoons of salt, two cups of flour, and knead until smooth (about 5-8 minutes).Cover and set aside.Preheat oven to 425 Fahrenheit.",
+                            "ingredients": [
+                                {
+                                    "id": 20081,
+                                    "name": "all purpose flour",
+                                    "localizedName": "all purpose flour",
+                                    "image": "flour.png"
+                                },
+                                {
+                                    "id": 2047,
+                                    "name": "salt",
+                                    "localizedName": "salt",
+                                    "image": "salt.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg",
+                                    "temperature": {
+                                        "number": 425.0,
+                                        "unit": "Fahrenheit"
+                                    }
+                                }
+                            ],
+                            "length": {
+                                "number": 8,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 4,
+                            "step": "Roll out dough into a large disk  inches thick on parchment paper.Move dough and paper to baking sheet.",
+                            "ingredients": [
+                                {
+                                    "id": 0,
+                                    "name": "dough",
+                                    "localizedName": "dough",
+                                    "image": "pizza-dough"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "roll",
+                                    "localizedName": "roll",
+                                    "image": "dinner-yeast-rolls.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404770,
+                                    "name": "baking paper",
+                                    "localizedName": "baking paper",
+                                    "image": "baking-paper.jpg"
+                                },
+                                {
+                                    "id": 404727,
+                                    "name": "baking sheet",
+                                    "localizedName": "baking sheet",
+                                    "image": "baking-sheet.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "step": "Combine sauce ingredients in a blender and process until smooth.In a separate bowl, combine chicken, bell pepper, carrot, and broccoli with 4 tablespoons of pizza sauce.",
+                            "ingredients": [
+                                {
+                                    "id": 10211821,
+                                    "name": "bell pepper",
+                                    "localizedName": "bell pepper",
+                                    "image": "bell-pepper-orange.png"
+                                },
+                                {
+                                    "id": 11549,
+                                    "name": "pizza sauce",
+                                    "localizedName": "pizza sauce",
+                                    "image": "tomato-sauce-or-pasta-sauce.jpg"
+                                },
+                                {
+                                    "id": 11090,
+                                    "name": "broccoli",
+                                    "localizedName": "broccoli",
+                                    "image": "broccoli.jpg"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "chicken",
+                                    "localizedName": "chicken",
+                                    "image": "whole-chicken.jpg"
+                                },
+                                {
+                                    "id": 11124,
+                                    "name": "carrot",
+                                    "localizedName": "carrot",
+                                    "image": "sliced-carrot.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "sauce",
+                                    "localizedName": "sauce",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404726,
+                                    "name": "blender",
+                                    "localizedName": "blender",
+                                    "image": "blender.png"
+                                },
+                                {
+                                    "id": 404783,
+                                    "name": "bowl",
+                                    "localizedName": "bowl",
+                                    "image": "bowl.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "step": "Mix until uniformly covered with sauce.",
+                            "ingredients": [
+                                {
+                                    "id": 0,
+                                    "name": "sauce",
+                                    "localizedName": "sauce",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 7,
+                            "step": "Spread remaining sauce evenly over dough.Top with cheese, chicken, green onions, cilantro, and sesame seeds.",
+                            "ingredients": [
+                                {
+                                    "id": 11291,
+                                    "name": "green onions",
+                                    "localizedName": "green onions",
+                                    "image": "spring-onions.jpg"
+                                },
+                                {
+                                    "id": 12023,
+                                    "name": "sesame seeds",
+                                    "localizedName": "sesame seeds",
+                                    "image": "sesame-seeds.png"
+                                },
+                                {
+                                    "id": 11165,
+                                    "name": "cilantro",
+                                    "localizedName": "cilantro",
+                                    "image": "cilantro.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "chicken",
+                                    "localizedName": "chicken",
+                                    "image": "whole-chicken.jpg"
+                                },
+                                {
+                                    "id": 1041009,
+                                    "name": "cheese",
+                                    "localizedName": "cheese",
+                                    "image": "cheddar-cheese.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "spread",
+                                    "localizedName": "spread",
+                                    "image": ""
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "dough",
+                                    "localizedName": "dough",
+                                    "image": "pizza-dough"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "sauce",
+                                    "localizedName": "sauce",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 8,
+                            "step": "Bake for 17 minutes or until the cheese is melted and the crust is golden brown.",
+                            "ingredients": [
+                                {
+                                    "id": 1041009,
+                                    "name": "cheese",
+                                    "localizedName": "cheese",
+                                    "image": "cheddar-cheese.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "crust",
+                                    "localizedName": "crust",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 17,
+                                "unit": "minutes"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "spoonacularSourceUrl": "https://spoonacular.com/thai-pizza-663136",
+            "image": "https://spoonacular.com/recipeImages/663136-312x231.jpg",
+            "imageType": "jpg",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "name": "Alcohol",
+                        "amount": 0.0,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Caffeine",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Fluoride",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Vitamin C",
+                        "amount": 46.1007,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Selenium",
+                        "amount": 66.4784,
+                        "unit": "µg"
+                    }
+                ]
+            }
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": true,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 16,
+            "gaps": "no",
+            "preparationMinutes": -1,
+            "cookingMinutes": -1,
+            "aggregateLikes": 95,
+            "healthScore": 29,
+            "creditsText": "afrolems.com",
+            "sourceName": "afrolems.com",
+            "pricePerServing": 146.54,
+            "id": 716300,
+            "title": "Plantain Pizza",
+            "readyInMinutes": 45,
+            "servings": 3,
+            "sourceUrl": "http://www.afrolems.com/2014/03/08/plantain-pizza/",
+            "image": "https://spoonacular.com/recipeImages/716300-312x231.jpg",
+            "imageType": "jpg",
+            "summary": "Plantain Pizzan is a Mediterranean main course. One serving contains <b>657 calories</b>, <b>27g of protein</b>, and <b>23g of fat</b>. This dairy free recipe serves 3 and costs <b>$1.47 per serving</b>. 95 people were impressed by this recipe. It is brought to you by Afrolems. If you have tomato), bell pepper, bell peppers, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes about <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 91%</b>. This score is outstanding. Similar recipes include <a href=\"https://spoonacular.com/recipes/how-to-spiralize-a-plantain-plantain-rice-and-beans-563745\">How to Spiralize a Plantain & Plantain “Rice” and Beans</a>, <a href=\"https://spoonacular.com/recipes/plantain-chips-150821\">Plantain Chips</a>, and <a href=\"https://spoonacular.com/recipes/plantain-fritters-316444\">Plantain Fritters</a>.",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "European"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [
+                "dairy free"
+            ],
+            "occasions": [],
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Dissolve the yeast in warm water and leave to stand for about 5 minutes.",
+                            "ingredients": [
+                                {
+                                    "id": 14412,
+                                    "name": "water",
+                                    "localizedName": "water",
+                                    "image": "water.png"
+                                },
+                                {
+                                    "id": 18375,
+                                    "name": "yeast",
+                                    "localizedName": "yeast",
+                                    "image": "yeast-granules.jpg"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 5,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 2,
+                            "step": "Mix the oil, flour, salt, sugar and mashed plantain and pour in the dissolved yeast.Knead the dough till its elastic which may take aBout 15-20 minutes By hand or 10 minutes in a mixer.Coat a Bowl lightly with oil and place the dough in it. Cover with a plastic wrap and leave to rise between 1.5 – 2 hours.While the dough is rising, heat up the oil for the sauce, fry the Blended tomato and pepper, season and stir fry the Beef in the tomato sauce. Set aside.When the dough rises, divide into two.",
+                            "ingredients": [
+                                {
+                                    "id": 11549,
+                                    "name": "tomato sauce",
+                                    "localizedName": "tomato sauce",
+                                    "image": "tomato-sauce-or-pasta-sauce.jpg"
+                                },
+                                {
+                                    "id": 99295,
+                                    "name": "plantain",
+                                    "localizedName": "plantain",
+                                    "image": "plantains.jpg"
+                                },
+                                {
+                                    "id": 1002030,
+                                    "name": "pepper",
+                                    "localizedName": "pepper",
+                                    "image": "pepper.jpg"
+                                },
+                                {
+                                    "id": 11529,
+                                    "name": "tomato",
+                                    "localizedName": "tomato",
+                                    "image": "tomato.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "dough",
+                                    "localizedName": "dough",
+                                    "image": "pizza-dough"
+                                },
+                                {
+                                    "id": 20081,
+                                    "name": "all purpose flour",
+                                    "localizedName": "all purpose flour",
+                                    "image": "flour.png"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "sauce",
+                                    "localizedName": "sauce",
+                                    "image": ""
+                                },
+                                {
+                                    "id": 19335,
+                                    "name": "sugar",
+                                    "localizedName": "sugar",
+                                    "image": "sugar-in-bowl.png"
+                                },
+                                {
+                                    "id": 18375,
+                                    "name": "yeast",
+                                    "localizedName": "yeast",
+                                    "image": "yeast-granules.jpg"
+                                },
+                                {
+                                    "id": 23572,
+                                    "name": "beef",
+                                    "localizedName": "beef",
+                                    "image": "beef-cubes-raw.png"
+                                },
+                                {
+                                    "id": 2047,
+                                    "name": "salt",
+                                    "localizedName": "salt",
+                                    "image": "salt.jpg"
+                                },
+                                {
+                                    "id": 10018364,
+                                    "name": "wrap",
+                                    "localizedName": "wrap",
+                                    "image": "flour-tortilla.jpg"
+                                },
+                                {
+                                    "id": 4582,
+                                    "name": "cooking oil",
+                                    "localizedName": "cooking oil",
+                                    "image": "vegetable-oil.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404730,
+                                    "name": "plastic wrap",
+                                    "localizedName": "plastic wrap",
+                                    "image": "plastic-wrap.jpg"
+                                },
+                                {
+                                    "id": 404726,
+                                    "name": "blender",
+                                    "localizedName": "blender",
+                                    "image": "blender.png"
+                                },
+                                {
+                                    "id": 404783,
+                                    "name": "bowl",
+                                    "localizedName": "bowl",
+                                    "image": "bowl.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 150,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 3,
+                            "step": "Sprinkle some flour on a flat surface and with a rolling pin, flatten out the dough but not excessively.",
+                            "ingredients": [
+                                {
+                                    "id": 0,
+                                    "name": "dough",
+                                    "localizedName": "dough",
+                                    "image": "pizza-dough"
+                                },
+                                {
+                                    "id": 20081,
+                                    "name": "all purpose flour",
+                                    "localizedName": "all purpose flour",
+                                    "image": "flour.png"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404746,
+                                    "name": "rolling pin",
+                                    "localizedName": "rolling pin",
+                                    "image": "rolling-pin.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "step": "Cut the dough into your desired shape, rub some oil on it and spread your sauce and toppings on it and set aside.",
+                            "ingredients": [
+                                {
+                                    "id": 0,
+                                    "name": "spread",
+                                    "localizedName": "spread",
+                                    "image": ""
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "dough",
+                                    "localizedName": "dough",
+                                    "image": "pizza-dough"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "sauce",
+                                    "localizedName": "sauce",
+                                    "image": ""
+                                },
+                                {
+                                    "id": 4582,
+                                    "name": "cooking oil",
+                                    "localizedName": "cooking oil",
+                                    "image": "vegetable-oil.jpg"
+                                },
+                                {
+                                    "id": 1012034,
+                                    "name": "dry seasoning rub",
+                                    "localizedName": "dry seasoning rub",
+                                    "image": "seasoning.png"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 5,
+                            "step": "Heat up your oven to 350 F and place your pizza dough on a lightly oiled foil pan and",
+                            "ingredients": [
+                                {
+                                    "id": 93610,
+                                    "name": "pizza dough",
+                                    "localizedName": "pizza dough",
+                                    "image": "pizza-dough.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404765,
+                                    "name": "aluminum foil",
+                                    "localizedName": "aluminum foil",
+                                    "image": "aluminum-foil.png"
+                                },
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg",
+                                    "temperature": {
+                                        "number": 350.0,
+                                        "unit": "Fahrenheit"
+                                    }
+                                },
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "localizedName": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "step": "Bake for 12-15 mins.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 15,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 7,
+                            "step": "Serve warm",
+                            "ingredients": [],
+                            "equipment": []
+                        }
+                    ]
+                }
+            ],
+            "spoonacularSourceUrl": "https://spoonacular.com/plantain-pizza-716300",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "name": "Alcohol",
+                        "amount": 0.0,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Caffeine",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Fluoride",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Vitamin C",
+                        "amount": 67.8383,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Selenium",
+                        "amount": 45.75,
+                        "unit": "µg"
+                    }
+                ]
+            }
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 11,
+            "gaps": "no",
+            "preparationMinutes": -1,
+            "cookingMinutes": -1,
+            "aggregateLikes": 1,
+            "healthScore": 17,
+            "creditsText": "foodista.com",
+            "sourceName": "foodista.com",
+            "pricePerServing": 207.89,
+            "id": 665769,
+            "title": "Zucchini Pizza Boats",
+            "readyInMinutes": 45,
+            "servings": 6,
+            "sourceUrl": "https://www.foodista.com/recipe/5N8Z8MR8/zucchini-pizza-boats",
+            "image": "https://spoonacular.com/recipeImages/665769-312x231.jpg",
+            "imageType": "jpg",
+            "summary": "Zucchini Pizza Boats is a Mediterranean recipe that serves 6. One serving contains <b>364 calories</b>, <b>18g of protein</b>, and <b>27g of fat</b>. For <b>$2.08 per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. 1 person were glad they tried this recipe. This recipe from Foodista requires basil, olive oil, parmesan cheese, and mozzarella cheese. Not a lot of people really liked this main course. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 53%</b>, this dish is solid. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/zucchini-pizza-boats-1412015\">Zucchini Pizza Boats</a>, <a href=\"https://spoonacular.com/recipes/zucchini-pizza-boats-1497223\">Zucchini Pizza Boats</a>, and <a href=\"https://spoonacular.com/recipes/zucchini-pizza-boats-1125157\">Zucchini Pizza Boats</a>.",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "European"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Preheat the oven to 350 F.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg",
+                                    "temperature": {
+                                        "number": 350.0,
+                                        "unit": "Fahrenheit"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "step": "Cut the zucchinis in half lengthwise. If necessary, trim a little off the bottom so it will sit still in a baking dish.",
+                            "ingredients": [
+                                {
+                                    "id": 11477,
+                                    "name": "zucchini",
+                                    "localizedName": "zucchini",
+                                    "image": "zucchini.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404646,
+                                    "name": "baking pan",
+                                    "localizedName": "baking pan",
+                                    "image": "roasting-pan.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "step": "With a spoon, scoop out some of the center where the seeds are to make a little groove in the zucchini boats.",
+                            "ingredients": [
+                                {
+                                    "id": 11477,
+                                    "name": "zucchini",
+                                    "localizedName": "zucchini",
+                                    "image": "zucchini.jpg"
+                                },
+                                {
+                                    "id": 93818,
+                                    "name": "seeds",
+                                    "localizedName": "seeds",
+                                    "image": "sunflower-seeds.jpg"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 4,
+                            "step": "Place zucchini in a baking dish and brush the boats with olive oil, spread the minced garlic and add salt and pepper to taste.",
+                            "ingredients": [
+                                {
+                                    "id": 1102047,
+                                    "name": "salt and pepper",
+                                    "localizedName": "salt and pepper",
+                                    "image": "salt-and-pepper.jpg"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "minced garlic",
+                                    "localizedName": "minced garlic",
+                                    "image": "garlic.png"
+                                },
+                                {
+                                    "id": 4053,
+                                    "name": "olive oil",
+                                    "localizedName": "olive oil",
+                                    "image": "olive-oil.jpg"
+                                },
+                                {
+                                    "id": 11477,
+                                    "name": "zucchini",
+                                    "localizedName": "zucchini",
+                                    "image": "zucchini.jpg"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "spread",
+                                    "localizedName": "spread",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404646,
+                                    "name": "baking pan",
+                                    "localizedName": "baking pan",
+                                    "image": "roasting-pan.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "step": "Arrange the halved tomatoes on the boats and sprinkle with bread crumbs.",
+                            "ingredients": [
+                                {
+                                    "id": 18079,
+                                    "name": "breadcrumbs",
+                                    "localizedName": "breadcrumbs",
+                                    "image": "breadcrumbs.jpg"
+                                },
+                                {
+                                    "id": 11529,
+                                    "name": "tomato",
+                                    "localizedName": "tomato",
+                                    "image": "tomato.png"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 6,
+                            "step": "Bake for about 30 minutes.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 30,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 7,
+                            "step": "Remove from oven, turn on the broiler, place mozzarella and basil in between the tomatoes, and put them back in the oven to broil for a few minutes until golden and bubbling.",
+                            "ingredients": [
+                                {
+                                    "id": 1026,
+                                    "name": "mozzarella",
+                                    "localizedName": "mozzarella",
+                                    "image": "mozzarella.png"
+                                },
+                                {
+                                    "id": 11529,
+                                    "name": "tomato",
+                                    "localizedName": "tomato",
+                                    "image": "tomato.png"
+                                },
+                                {
+                                    "id": 2044,
+                                    "name": "basil",
+                                    "localizedName": "basil",
+                                    "image": "basil.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 405914,
+                                    "name": "broiler",
+                                    "localizedName": "broiler",
+                                    "image": "oven.jpg"
+                                },
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "step": "Remove from the oven and sprinkle on some parmesan cheese.",
+                            "ingredients": [
+                                {
+                                    "id": 1033,
+                                    "name": "parmesan",
+                                    "localizedName": "parmesan",
+                                    "image": "parmesan.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "spoonacularSourceUrl": "https://spoonacular.com/zucchini-pizza-boats-665769",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "name": "Alcohol",
+                        "amount": 0.0,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Caffeine",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Fluoride",
+                        "amount": 0.0,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Vitamin C",
+                        "amount": 23.5181,
+                        "unit": "mg"
+                    },
+                    {
+                        "name": "Selenium",
+                        "amount": 12.7361,
+                        "unit": "µg"
+                    }
+                ]
+            }
+        }
+    ],
+    "offset": 0,
+    "number": 5,
+    "totalResults": 35
+}

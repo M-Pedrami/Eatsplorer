@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import RecipePage from "./components/RecipePage";
 import NavBar from "./components/Navbar";
-import NinjaRecipes from "./components/NinjaRecipes";
+import RpidApiRecipes from "./components/RapidApiRecipes";
 
 /* Import React components */
 
@@ -20,7 +20,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Home/:ID" element={<RecipePage />} />
-      <Route path="/NinjaAPI" element= {<NinjaRecipes />} />
+      <Route path="/RapidApi" element= {<RpidApiRecipes/>} />
     </Routes>
     </>
   )

@@ -10,7 +10,7 @@ export default function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" id="Navigation">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/NinjaAPI">NinjaApi</Nav.Link>
+            <Nav.Link href="/RapidApi">RapidApi</Nav.Link>
             <NavDropdown title="Categories" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Fast and Deliscious</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
