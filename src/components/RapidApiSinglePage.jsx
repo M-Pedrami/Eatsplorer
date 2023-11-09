@@ -3,18 +3,25 @@ import {Person, DiamondFill, Alarm, Globe } from 'react-bootstrap-icons';
 import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import getRapidSngl from '../hooks/getRapidSngl';
+import getWidget from '../hooks/getWidget';
+import '../styles/RapidApiSingle.css'
 
 
 export default function RapidApiSinglePage() {
   const {ID} = useParams()
   const [SingleRecipe, setSingleRecipe] = useState(null)
+  const [image, setImage] = useState("")
   
    useEffect(()=> {
     getRapidSngl(ID)
     .then((res)=>setSingleRecipe(res))
     .catch((err)=> console.log("From RapidApiSinglePage:::", err))
+    getWidget(ID)
+      .then((res)=>setImage(res))
+      .catch((err)=>console.log("No Image", err))
   }, [ID]) 
   console.log(SingleRecipe)
+  console.log("The Image::::::",image)
 
   return (
     <div>
@@ -54,10 +61,13 @@ export default function RapidApiSinglePage() {
                 <div className="container text-center text-lg-start ingredients">
                 <h3>Ingredients</h3>
                 {SingleRecipe?.extendedIngredients.map((ingredient, index) => (
+                  <>
                   <span key={index}>
                     {index + 1}. {ingredient.originalName} <DiamondFill className="d-lg-none d-sm-inline-block" /> <br className="d-none d-lg-block" />
                   </span>
+                  </>
                 ))}
+                <img className='png' src={image} alt={ID} />
                 </div>
                 <div className="container text-lg-start text-center">
 
