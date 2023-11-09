@@ -1,0 +1,10 @@
+#placeHolder{
+  width: 500px;
+  height: 500px;
+  margin-left: 30%;
+}
+@media screen and (max-width: 600px) {
+  #placeHolder {
+    display: none;
+  }
+}

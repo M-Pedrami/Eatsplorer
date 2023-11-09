@@ -2,3 +2,11 @@
   margin-left: 80%;
   display: flex;
 }
+#brandLogo{
+  height: 10%;
+  width: 20%;
+  display: inline-flex;
+}
+a{
+  width: 82%;
+}

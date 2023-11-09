@@ -25,7 +25,7 @@ export default function RapidApiSinglePage() {
 
   return (
     <div>
-      <h1>This is Single Recipe Page from Rapid Api</h1>
+  
       { <Container key={SingleRecipe?.title}>
             <section className="p-5 bg-body-tertiary mt-5">
               <div className="container d-flex justify-content-between">

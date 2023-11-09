@@ -7,6 +7,7 @@ import RecipePage from "./components/RecipePage";
 import NavBar from "./components/NavBar";
 import RpidApiRecipes from "./components/RapidApiRecipes";
 import RapidApiSinglePage from "./components/RapidApiSinglePage";
+import Footer from "./components/Footer";
 
 /* Import React components */
 
@@ -24,6 +25,7 @@ function App() {
       <Route path="/RapidApi" element= {<RpidApiRecipes/>} />
       <Route path="/RapidApi/:ID" element= {<RapidApiSinglePage/>} />
     </Routes>
+    <Footer/>
     </>
   )
 }

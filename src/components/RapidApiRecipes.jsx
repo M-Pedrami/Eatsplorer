@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import getRapidApi from "../hooks/getRapidApi";
 import { Container, InputGroup, Form, Pagination } from "react-bootstrap";
 import { Search } from "react-bootstrap-icons";
-import data from '../hooks/data.json'
+import search from '../assets/search.svg'
 import RecipeCardRapidApi from "./RecipeCardRapidApi";
 import BasicPagination from "./Pagination";
+import '../styles/RapidApiRecipes.css'
 
 export default function RpidApiRecipes() {
   /* In order to conditionally run the hook in useEffect the initiall state needs to be changed to null */
@@ -37,7 +38,8 @@ export default function RpidApiRecipes() {
     <div>
     <div>
       <Container className="SearchBox">
-        <h1>Find A Recipe</h1>
+        <h1>Search our Database of Two Million Recipes </h1>
+        <h3>And Find Your Next Favorite Food</h3>
         <InputGroup size="lg">
           <InputGroup.Text id="inputGroup-sizing-lg" placeholder="">
             <Search onClick={handleSearch} className="searchIcon" />
@@ -47,6 +49,7 @@ export default function RpidApiRecipes() {
             aria-describedby="inputGroup-sizing-sm"
             onChange={(e) => setKeyword(e.target.value)}
             value={keyword}
+            placeholder="Powered by Rapid API"
           />
         </InputGroup>
       </Container>
@@ -60,7 +63,7 @@ export default function RpidApiRecipes() {
         </div> */}
       </div> 
         {recipes === null ? (
-        <h1>Search for a recipe...</h1>
+        <img id="placeHolder" src={search} alt="search" />
       ) : recipes.length === 0 ? (
         <h1>No recipes found.</h1>
       ) : (
