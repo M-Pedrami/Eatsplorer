@@ -16,8 +16,7 @@ export default function NavBar() {
               <NavDropdown.Item href="#action/3.2">
                 Persian Cousine
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Vegan</NavDropdown.Item>
-              
+              <NavDropdown.Item href="#action/3.3">Vegan</NavDropdown.Item>           
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

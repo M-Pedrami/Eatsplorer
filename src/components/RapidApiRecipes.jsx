@@ -3,6 +3,7 @@ import getRapidApi from "../hooks/getRapidApi";
 import { Container, InputGroup, Form } from "react-bootstrap";
 import { Search } from "react-bootstrap-icons";
 import data from '../hooks/data.json'
+import RecipeCardRapidApi from "./RecipeCardRapidApi";
 
 export default function RpidApiRecipes() {
   /* In order to conditionally run the hook in useEffect the initiall state needs to be changed to null */
@@ -18,9 +19,9 @@ export default function RpidApiRecipes() {
         .catch((err) => console.log("RapidApi Component", err));
     }
   }, [query]);
-  console.log("RapidApi",recipes);
-  console.log(keyword)
-  console.log(testData)
+  console.log("RapidApi:::",recipes);
+  /* console.log("KeyWord:::",keyword)
+  console.log("TestData:::",testData) */
   return (
     
     <div>
@@ -40,22 +41,30 @@ export default function RpidApiRecipes() {
         </InputGroup>
       </Container>
     </div>
-    <div>
-      {testData.map((recipe, index) => (
-          <h1 key={index}>{recipe.title}</h1>
+    <Container>
+       <div className="container p-5">
+       {/*  <div className="row g-4">
+      {recipes.map((recipe, index) => (
+          <RecipeCardRapidApi recipe={recipe} key={index} />
         )) }
-      {/* {recipes === null ? (
+        </div> */}
+      </div> 
+        {recipes === null ? (
         <h1>Search for a recipe...</h1>
       ) : recipes.length === 0 ? (
         <h1>No recipes found.</h1>
       ) : (
-      
+        <div className="Container p-5">
+          <div className="row g-4">
+          {recipes.map((recipe, index) => (
+          <RecipeCardRapidApi recipe={recipe} key={index} />
+        )) }
+          </div>
+        </div>
         
-        recipes.map((recipe, index) => (
-          <h1 key={index}>{recipe.title}</h1>
-        )) 
-      )} */}
-    </div>
+        
+      )}
+    </Container>
   </div>
     
   );

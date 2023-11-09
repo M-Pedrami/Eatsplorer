@@ -1,5 +1,5 @@
 const getRapidApi = async (query) => {
-  const url = `https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=${query}&instructionsRequired=true&fillIngredients=false&addRecipeInformation=true&minAlcohol=0&minCaffeine=0&minFluoride=0&minVitaminC=0&minSelenium=0&number=5&limitLicense=true&ranking=2`;
+  const url = `https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?query=${query}&instructionsRequired=true&fillIngredients=false&addRecipeInformation=true&minAlcohol=0&minCaffeine=0&minFluoride=0&minVitaminC=0&minSelenium=0&number=12&limitLicense=true&ranking=2`;
   const options = {
     method: "GET",
     headers: {
