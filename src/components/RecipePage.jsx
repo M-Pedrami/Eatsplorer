@@ -5,14 +5,22 @@ import {
   Alarm,
   Puzzle,
   Plus,
+  HandThumbsUp,
 } from "react-bootstrap-icons";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import getRecipe from "../hooks/getSingleEntry";
+import '../styles/RecipePage.css'
 
 export default function RecipePage() {
   const { ID } = useParams();
   const [recipe, setRecipe] = useState(null);
+  const [like, setLike] = useState(0)
+
+  const handleLike = () => {
+    setLike((like)=> like + 1)
+  }
+
   useEffect(() => {
     getRecipe(ID)
       .then((res) => setRecipe(res))
@@ -35,17 +43,22 @@ export default function RecipePage() {
               <h1 className="mb-lg-3">{recipe?.fields.name}</h1>
               <hr className="m-lg-auto w-100 mb-lg-3"></hr>
               <div>
-                <div>
+                <div className="info">
                   <Person />
                   SERVES: {recipe?.fields.info.serves}
                 </div>
-                <div>
+                <div className="info">
                   <Alarm />
                   COOKS IN: {recipe?.fields.info.time}
                 </div>
-                <div>
+                <div className="info">
                   <Puzzle />
                   DIFFICULTY: {recipe?.fields.info.difficulty}
+                </div>
+                <div className="info">
+                  <HandThumbsUp onClick={handleLike} className="like"/>
+                  Likes: 
+                  {like}
                 </div>
               </div>
               <hr className="m-lg-auto w-100" />
