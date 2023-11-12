@@ -3,8 +3,8 @@ const getRapidApi = async (query, offset) => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "8886b3e956mshfb2db367c6afebap1bd00djsn661d03fe1e0d",
-      "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
+      "X-RapidAPI-Key": import.meta.env.VITE_X_RAPIDAPI_KEY,
+      "X-RapidAPI-Host": import.meta.env.VITE_X_RAPIDAPI_HOST,
     },
   };
   try {
