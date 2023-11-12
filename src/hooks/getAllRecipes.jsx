@@ -1,22 +1,17 @@
 import { createClient } from "contentful";
 
-const getAllRecipes = async (skip=0, limit=4) => {
+const getAllRecipes = async () => {
   const client = createClient({
     space: import.meta.env.VITE_SPACE_ID,
-    accessToken: import.meta.env.VITE_ACCESS_TOKEN
+    accessToken: import.meta.env.VITE_ACCESS_TOKEN,
   });
   try {
-    const {total, items} = await client.getEntries({
-      limit: limit,
-      skip: skip,
+    const response = await client.getEntries({
       content_type: "recipe",
-      
-      
     });
-    return {total, recipes: items}
+    return response.items;
   } catch (err) {
     console.log("Maziar !!! Error from useContentful", err);
-    return {total: 0, recipes: []}
   }
 };
 
