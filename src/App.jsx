@@ -21,10 +21,10 @@ function App() {
     <>
     <NavBar/>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Home/:ID" element={<RecipePage />} />
-      <Route path="/RapidApi" element= {<RpidApiRecipes/>} />
-      <Route path="/RapidApi/:ID" element= {<RapidApiSinglePage/>} />
+      <Route path="#/Eatsplorer" element={<Home />} />
+      <Route path="#/Home/:ID" element={<RecipePage />} />
+      <Route path="#/RapidApi" element= {<RpidApiRecipes/>} />
+      <Route path="#/RapidApi/:ID" element= {<RapidApiSinglePage/>} />
     </Routes>
     <Footer/>
     </>
